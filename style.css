@@ -1,0 +1,28 @@
+body {
+    /*background: linear-gradient(rgb(10, 98, 133) 50% , rgb(5, 151, 187)50%);*/
+    background: linear-gradient(to top left, rgb(4, 129, 151)50%,rgb(7, 185, 216)30%);
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+header h2 {
+    font-size: 40px;
+}
+main {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+}
+main img{
+    width: 80%;
+    height: 100%;
+    border-radius: 400px;
+}
+main h1 {
+    font-size: 60px;
+}
+main h2 {
+    font-size: 50px;
+}
