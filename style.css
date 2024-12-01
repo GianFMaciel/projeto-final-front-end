@@ -1,14 +1,21 @@
 body {
-    /*background: linear-gradient(rgb(10, 98, 133) 50% , rgb(5, 151, 187)50%);*/
-    background: linear-gradient(to top left, rgb(4, 129, 151)50%,rgb(7, 185, 216)30%);
+    background-color: #282828;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+    background: linear-gradient(150deg, #000, #9e00ff);
+    background-size: 120% 120%;
+
 }
 header {
     display: flex;
     justify-content: space-around;
     margin: 0;
+    color: rgb(0, 80, 151);
 }
 header h2 {
     font-size: 40px;
+    color: rgb(0, 80, 151);
 }
 main {
     display: grid;
@@ -18,7 +25,13 @@ main {
 main img{
     width: 80%;
     height: 100%;
-    border-radius: 400px;
+    border-radius: 100%;
+}
+.foto-sombra-interna {
+    background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+    border-radius: 100%;
 }
 main h1 {
     font-size: 60px;
