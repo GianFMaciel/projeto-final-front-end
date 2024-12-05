@@ -1,0 +1,30 @@
+body {
+    background-color: #282828;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+    background: linear-gradient(150deg, #000, #9e00ff);
+    background-size: 120% 120%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    color: rgb(0, 80, 151);
+}
+header h2 {
+    font-size: 40px;
+    color: rgb(0, 80, 151);
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 55px;
+    transition: 0.2s;
+    text-align: calc(50px);
+}
+a {
+    color: rgb(0, 80, 151);
+}
