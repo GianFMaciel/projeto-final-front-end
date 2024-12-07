@@ -28,3 +28,7 @@ header h2 {
 a {
     color: rgb(0, 80, 151);
 }
+main {
+    display: grid;
+    grid-template-columns: auto;
+}

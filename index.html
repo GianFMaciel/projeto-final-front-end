@@ -18,7 +18,6 @@
             <ul>
                 <big>
                     <li><a href="http://127.0.0.1:5500/introducao.html" title="Ir para Introdução">Introdução</a></li>
-                    <br><li><a href="http://127.0.0.1:5500/habilidades.html" title="Ir para Habilidades">Habilidades</a></li>
                     <br><li><a href="http://127.0.0.1:5500/projetos.html" title="Ir para Projetos">Projetos</a></li>
                     <br><li><a href="#Contatos" >Contatos</a></li>
                 </big>
@@ -29,9 +28,15 @@
         <div>
             <h1 >Desenvolvedor Web Júnior</h1>
             <br><h2>Front-End</h2>
+            <br>
+            <img class="linguagens" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+            <img class="linguagens" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+            <img id="jsIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+
+
         </div>
         
-            <img src="./Foto perfil/Gianderson.jpg" alt="Gianderson">
+            <img class="perfil" src="./Foto perfil/Gianderson.jpg" alt="Gianderson">
         
     </main>
     <footer id="Contatos">
@@ -52,6 +57,23 @@
                     <i class="fab fa-github"></i>
                 </a>
             </li>
+                <form action="http://127.0.0.1:5500/Formulario/form.html" method="post">
+                    <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" />
+                    </div>
+                    <div>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" />
+                    </div>
+                    <div>
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg"></textarea>
+                    </div>
+                    <div class="button">
+                    <button type="submit">Enviar sua mensagem</button>
+                    </div>
+                </form>
         </ul>
     </footer>
     

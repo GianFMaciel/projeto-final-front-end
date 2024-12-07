@@ -21,13 +21,21 @@ main {
     grid-template-columns: 50% 50%;
     justify-content: center;
 }
-main img{
+.perfil{
     display: flex;
     width: 80%;
     height: 100%; 
     border-radius: 100%;
     align-self: center;
     box-shadow: 20px 20px 25px rgb(0, 80, 151);
+}
+.linguagens {
+    height: auto;
+    width: 30%;
+}
+#jsIcon {
+    height: 140px;
+    width: 30%;
 }
 /* .foto-sombra-interna {
     background: linear-gradient(to right, #8A35C8, #18C063, #00EEA2);
@@ -54,6 +62,9 @@ footer li {
 }
 a {
     color: rgb(0, 80, 151);
+}
+label {
+box-shadow: 5px 5px 5px rgb(0, 80, 151);
 }
 .redes-sociais {
     display: flex;
