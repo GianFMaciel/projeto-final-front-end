@@ -16,6 +16,20 @@ header h2 {
     font-size: 40px;
     color: rgb(0, 80, 151);
 }
+header h1:hover {
+    color: #9443d8;
+}
+header h2:hover {
+    color: #9443d8;
+}
+header nav ul li:hover{
+    color: #9443d8;
+    transition: 0.2s;
+}
+header nav ul li a:hover{
+    color: #9443d8;
+    transition: 0.2s;
+}
 main {
     display: grid;
     grid-template-columns: 50% 50%;
