@@ -77,8 +77,14 @@ footer li {
 a {
     color: rgb(0, 80, 151);
 }
-label {
-box-shadow: 5px 5px 5px rgb(0, 80, 151);
+input {
+    box-shadow: 5px 5px 5px rgb(0, 80, 151); 
+}
+textarea {
+    box-shadow: 5px 5px 5px rgb(0, 80, 151);
+}
+button{
+    box-shadow: 5px 5px 5px rgb(0, 80, 151);
 }
 .redes-sociais {
     display: flex;

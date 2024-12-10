@@ -56,23 +56,15 @@
                     <i class="fab fa-github"></i>
                 </a>
             </li>
-                <form action="gian.f.maciel@gmail.com.br" method="post">
-                    <div>
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" />
-                    </div>
-                    <div>
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" />
-                    </div>
-                    <div>
-                    <label for="msg">Mensagem:</label>
-                    <textarea id="msg"></textarea>
-                    </div>
-                    <div class="button">
-                    <button type="submit">Enviar sua mensagem</button>
+                <form action="https://formsubmit.co/gian.f.maciel@gmail.com" method="post">
+                    <input type="text" name="name" placeholder="Digite seu Nome">
+                    <input type="email" name="email" placeholder="Digite seu E-mail">
+                    <textarea cols="30" rows="10" name="message" placeholder="Digite sua Mensagem" required></textarea>
+                    <button type="submit">Enviar Mensagem</button>
                     <input type="reset" value="Limpar">
-                    </div>
+                    <input type="hidden" name="_subject" value="Novo Contato !">
+                    <input type="text" name="_honey" style="display: none;">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
         </ul>
     </footer>
